@@ -50,7 +50,7 @@
     opacity: 0.75;
     width: 10%;
     height: 35px;
-    color:#757575;
+    color: #757575;
 }
 .talonn:hover {
     color: black;
@@ -63,28 +63,58 @@
     opacity: 0.5;
     width: 10%;
     height: 35px;
-
-
 }
 .talonnn:hover {
     color: black;
     opacity: 1;
     font-weight: bold;
-  }
+}
 
 /*FIN CENTRAL*/
 
 
 /*DEBUT FOOOOOOOOOOOOOOOOOOOOTER*/
 
+.right li {
+    float: right;
+    display: inline-block;
+    margin-top: 19%;
+    font-size: 73%;
+    padding-right: 1%;
+    font-family: fantasy;
+    color: black;
+    text-decoration: none;
+}
+.right li a {
 
+  font-family: fantasy;
+  color: black;
+  text-decoration: none;
+  opacity: .65;
+}
+.left li {
+    float: left;
+    display: inline-block;
+    margin-right: 1%;
+    margin-top: 19%;
+    font-size: 73%;
+    font-family: fantasy;
+    color: black;
+    text-decoration: none;
+}
+.left li a {
 
-
-
-
-
-
+  font-family: fantasy;
+  color: black;
+  text-decoration: none;
+  opacity: .65;
+}
+.right li a:hover {opacity: .90;
+text-decoration: underline;}
+.left li a:hover {opacity: .90;
+text-decoration: underline;}
 /*FIN FOOOOOOOOOOOOOOOOOOOOOOOOTER*/
+
 html {
     color: #222;
     font-size: 1em;
